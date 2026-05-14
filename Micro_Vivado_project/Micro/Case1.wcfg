@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Top_Module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Top_Module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="107000001fs"></ZoomEndTime>
+      <Cursor1Time time="107000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_Top_Module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/interrupt" type="logic">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/IN_PORT" type="array">
+      <obj_property name="ElementShortName">IN_PORT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_PORT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/OUT_PORT" type="array">
+      <obj_property name="ElementShortName">OUT_PORT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_PORT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/PC_unit/PC_next" type="array">
+      <obj_property name="ElementShortName">PC_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/FD/inst_mem_out" type="array">
+      <obj_property name="ElementShortName">inst_mem_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_mem_out[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/FD/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/FD/inst_mem_out" type="array">
+      <obj_property name="ElementShortName">inst_mem_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_mem_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/flags_out[2]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">[2]</obj_property>
+      <obj_property name="label">Carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/JU/jump_now" type="logic">
+      <obj_property name="ElementShortName">jump_now</obj_property>
+      <obj_property name="ObjectShortName">jump_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/HU/ifIdFlush" type="logic">
+      <obj_property name="ElementShortName">ifIdFlush</obj_property>
+      <obj_property name="ObjectShortName">ifIdFlush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/HU/idExFlush" type="logic">
+      <obj_property name="ElementShortName">idExFlush</obj_property>
+      <obj_property name="ObjectShortName">idExFlush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/RF/R" type="array">
+      <obj_property name="ElementShortName">R[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[0:3][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/Memory/M[254]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[254][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[254][7:0]</obj_property>
+      <obj_property name="label">M[254]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/Memory/M[255]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[255][7:0]</obj_property>
+      <obj_property name="label">M[255]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/save_int" type="logic">
+      <obj_property name="ElementShortName">save_int</obj_property>
+      <obj_property name="ObjectShortName">save_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/restore_int" type="logic">
+      <obj_property name="ElementShortName">restore_int</obj_property>
+      <obj_property name="ObjectShortName">restore_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/flags_in" type="array">
+      <obj_property name="ElementShortName">flags_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/flags_out" type="array">
+      <obj_property name="ElementShortName">flags_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Top_Module/DUT/CCR_unit/flags_out_temp" type="array">
+      <obj_property name="ElementShortName">flags_out_temp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_out_temp[7:0]</obj_property>
+   </wvobject>
+</wave_config>

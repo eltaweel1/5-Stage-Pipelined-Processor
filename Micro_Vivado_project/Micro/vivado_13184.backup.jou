@@ -1,0 +1,202 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 20 19:15:12 2025
+# Process ID: 13184
+# Current directory: G:/Faculty/Third year/Micro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1624 G:\Faculty\Third year\Micro\Pipelined_Processor.xpr
+# Log file: G:/Faculty/Third year/Micro/vivado.log
+# Journal file: G:/Faculty/Third year/Micro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Faculty/Third year/Micro/Pipelined_Processor.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top_Module [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/Test_1.v} w ]
+add_files -fileset sim_1 {{G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/Test_1.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_Top_Module [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Top_Module.tcl
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 1 ns
+run 9 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/PC_unit/PC_next}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/FD/inst_mem_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/RF/R}} 
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/CCR_unit/flags_out}} 
+run 160 ns
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/CCR_unit/flags_in}} 
+restart
+run 160 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+relaunch_sim
+restart
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+relaunch_sim
+close_sim

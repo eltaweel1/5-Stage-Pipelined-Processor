@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+G:/Faculty/Third year/Micro/Pipelined_Processor.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/Test_1.v,1766694983,verilog,,,,tb_Top_Module,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/ALU.v,1766644237,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/CCR.v,,ALU,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/CCR.v,1766616785,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Control_Unit.v,,CCR,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Control_Unit.v,1766696332,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/D_EX.v,,Control_Unit,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/D_EX.v,1766673448,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/EX_M.v,,D_EX,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/EX_M.v,1766674002,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Forward_Unit.v,,EX_MEM,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Forward_Unit.v,1766653538,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Hazard_Unit.v,,Forward_Unit,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Hazard_Unit.v,1766664832,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/IF_ID.v,,Hazard_Unit,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/IF_ID.v,1766610040,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Jump_Unit.v,,IF_ID,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Jump_Unit.v,1766679351,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/M_WB.v,,Jump_Unit,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/M_WB.v,1766673789,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Memory.v,,MEM_WB,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Memory.v,1766678914,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/PC.v,,Von_Neumann_Mem,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/PC.v,1766660452,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/RF.v,,PC,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/RF.v,1766673231,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v,,RegisterFile,,,,,,,,
+G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v,1766679234,verilog,,G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/Test_1.v,,Top_Module,,,,,,,,

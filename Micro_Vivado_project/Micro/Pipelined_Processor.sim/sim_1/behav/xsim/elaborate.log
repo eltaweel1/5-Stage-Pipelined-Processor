@@ -1,0 +1,46 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 0f7cb70c774d44ef92f2ca234ca9283e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Top_Module_behav xil_defaultlib.tb_Top_Module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'op_code' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:295]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'save_int' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:424]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'enable' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:451]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'flush' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:452]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'enable' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:506]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'flush' [G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v:507]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Top_Module.v" Line 2. Module Top_Module doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/PC.v" Line 2. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Memory.v" Line 1. Module Von_Neumann_Mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/IF_ID.v" Line 1. Module IF_ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Control_Unit.v" Line 2. Module Control_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/RF.v" Line 1. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/D_EX.v" Line 1. Module D_EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Jump_Unit.v" Line 2. Module Jump_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/CCR.v" Line 3. Module CCR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/EX_M.v" Line 2. Module EX_MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/M_WB.v" Line 1. Module MEM_WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Von_Neumann_Mem
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.D_EX
+Compiling module xil_defaultlib.Jump_Unit
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CCR
+Compiling module xil_defaultlib.EX_MEM
+Compiling module xil_defaultlib.MEM_WB
+Compiling module xil_defaultlib.Hazard_Unit
+Compiling module xil_defaultlib.Top_Module
+Compiling module xil_defaultlib.tb_Top_Module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Top_Module_behav

@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Dec 25 07:59:18 2025
+# Process ID: 17940
+# Current directory: G:/Faculty/Third year/Micro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17404 G:\Faculty\Third year\Micro\Pipelined_Processor.xpr
+# Log file: G:/Faculty/Third year/Micro/vivado.log
+# Journal file: G:/Faculty/Third year/Micro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Faculty/Third year/Micro/Pipelined_Processor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {G:/Faculty/Third year/Micro/Case1.wcfg}
+source tb_Top_Module.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
+relaunch_sim
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+restart
+run 5 ns
+run 5 ns
+run 5 ns
+run 5 ns
+relaunch_sim
+restart
+run 5 ns
+run 5 ns
+relaunch_sim
+restart
+run 5 ns
+relaunch_sim
+restart
+run 5 ns
+relaunch_sim
+restart
+run 5 ns
+run 5 ns
+restart
+run 5 ns
+run 1 ns
+run 1 ns
+restart
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+relaunch_sim
+open_run synth_1 -name synth_1
+create_run impl_2 -parent_run synth_1 -flow {Vivado Implementation 2019} -strategy {Vivado Implementation Defaults} -report_strategy {Vivado Implementation Default Reports}
+current_run [get_runs impl_2]
+set_property board_part xilinx.com:sp701:part0:1.0 [current_project]
+close_design
+open_run synth_1 -name synth_1
+refresh_design
+export_ip_user_files -of_objects  [get_files {{G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/ALU_tb.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/PC_tb.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/ALU_tb.v} {G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/PC_tb.v}}
+file delete -force {G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/ALU_tb.v} {G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sim_1/new/PC_tb.v}
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+refresh_design
+synth_design -rtl -name rtl_1
+close_design
+refresh_design
+close_design
+close_sim
+launch_simulation
+open_wave_config {G:/Faculty/Third year/Micro/Case1.wcfg}
+source tb_Top_Module.tcl
+relaunch_sim
+current_wave_config {Case1.wcfg}
+add_wave {{/tb_Top_Module/DUT/FD}} 
+relaunch_sim
+restart
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+current_wave_config {Case1.wcfg}
+add_wave {{/tb_Top_Module/DUT/FD/flush}} 
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+current_wave_config {Case1.wcfg}
+add_wave {{/tb_Top_Module/DUT/CCR_unit}} 
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+current_wave_config {Case1.wcfg}
+log_wave {/tb_Top_Module/DUT/CU} 
+save_wave_config {G:/Faculty/Third year/Micro/Case1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {G:/Faculty/Third year/Micro/Case1.wcfg}
+source tb_Top_Module.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+save_wave_config {G:/Faculty/Third year/Micro/Case1.wcfg}
+close_sim

@@ -1,0 +1,309 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec 22 14:02:50 2025
+# Process ID: 3700
+# Current directory: G:/Faculty/Third year/Micro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14504 G:\Faculty\Third year\Micro\Pipelined_Processor.xpr
+# Log file: G:/Faculty/Third year/Micro/vivado.log
+# Journal file: G:/Faculty/Third year/Micro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Faculty/Third year/Micro/Pipelined_Processor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source tb_Top_Module.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+restart
+run 2 ns
+run 2 ns
+run 2 ns
+relaunch_sim
+restart
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+run 2 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/FD/inst_mem_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/CCR_unit/flags_out}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/RF/R[0]}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top_Module/DUT/RF/R[1]}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+launch_simulation
+source tb_Top_Module.tcl
+relaunch_sim
+close [ open {G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Jump_Unit.v} w ]
+add_files {{G:/Faculty/Third year/Micro/Pipelined_Processor.srcs/sources_1/new/Jump_Unit.v}}
+update_compile_order -fileset sources_1
+close_design
+update_compile_order -fileset sources_1
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/CCR_unit/flags_out}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/PC_unit/jump}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/FD/inst_mem_out}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/PC_unit/jump_target_Scr}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/PC_unit/jump_now}} 
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+current_wave_config {Untitled 2}
+add_wave {{/tb_Top_Module/DUT/PC_unit/PC_next}} 
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+relaunch_sim
